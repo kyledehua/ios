@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface CIFunViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *TicketView;
 
 @end

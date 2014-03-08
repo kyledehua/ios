@@ -21,6 +21,8 @@
 		186F0F0618CB9C51003DD3F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186F0EE818CB9C51003DD3F9 /* UIKit.framework */; };
 		186F0F0E18CB9C51003DD3F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186F0F0C18CB9C51003DD3F9 /* InfoPlist.strings */; };
 		186F0F1018CB9C51003DD3F9 /* MyProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F0F0F18CB9C51003DD3F9 /* MyProjectTests.m */; };
+		186F0F1A18CBB465003DD3F9 /* 09284019.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 186F0F1918CBB465003DD3F9 /* 09284019.jpg */; };
+		186F0F1C18CBB4A5003DD3F9 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 186F0F1B18CBB4A5003DD3F9 /* test.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		186F0F0B18CB9C51003DD3F9 /* MyProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyProjectTests-Info.plist"; sourceTree = "<group>"; };
 		186F0F0D18CB9C51003DD3F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		186F0F0F18CB9C51003DD3F9 /* MyProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyProjectTests.m; sourceTree = "<group>"; };
+		186F0F1918CBB465003DD3F9 /* 09284019.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 09284019.jpg; sourceTree = "<group>"; };
+		186F0F1B18CBB4A5003DD3F9 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 		186F0EEA18CB9C51003DD3F9 /* MyProject */ = {
 			isa = PBXGroup;
 			children = (
+				186F0F1B18CBB4A5003DD3F9 /* test.png */,
+				186F0F1918CBB465003DD3F9 /* 09284019.jpg */,
 				186F0EF318CB9C51003DD3F9 /* CIFunAppDelegate.h */,
 				186F0EF418CB9C51003DD3F9 /* CIFunAppDelegate.m */,
 				186F0EF618CB9C51003DD3F9 /* Main.storyboard */,
@@ -229,6 +235,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186F0F1A18CBB465003DD3F9 /* 09284019.jpg in Resources */,
+				186F0F1C18CBB4A5003DD3F9 /* test.png in Resources */,
 				186F0EFD18CB9C51003DD3F9 /* Images.xcassets in Resources */,
 				186F0EEF18CB9C51003DD3F9 /* InfoPlist.strings in Resources */,
 				186F0EF818CB9C51003DD3F9 /* Main.storyboard in Resources */,

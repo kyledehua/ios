@@ -18,6 +18,33 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    // 1
+    NSString *filePath =
+    [[NSBundle mainBundle] pathForResource:@"test" ofType:@"png"];
+    NSURL *fileNameAndPath = [NSURL fileURLWithPath:filePath];
+    
+    CIImage *beginImage =
+    [CIImage imageWithContentsOfURL:fileNameAndPath];
+    
+    // 1
+    CIContext *context = [CIContext contextWithOptions:nil];
+    
+    CIFilter *filter = [CIFilter filterWithName:@"CISepiaTone"
+                                  keysAndValues: kCIInputImageKey, beginImage,
+                        @"inputIntensity", @0.8, nil];
+    CIImage *outputImage = [filter outputImage];
+    
+    // 2
+    CGImageRef cgimg =
+    [context createCGImage:outputImage fromRect:[outputImage extent]];
+    
+    // 3
+    UIImage *newImage = [UIImage imageWithCGImage:cgimg];
+    self.TicketView.image = newImage;
+    
+    // 4
+    CGImageRelease(cgimg);
 }
 
 - (void)didReceiveMemoryWarning
